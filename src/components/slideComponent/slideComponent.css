@@ -1,0 +1,83 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.carousel .slides {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.arrow-btn-right,
+.arrow-btn-left  {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+}
+
+.arrow-btn-right img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-left: 2px;
+}
+
+.arrow-btn-left img{
+    width: 20px;
+    height: 20px;;
+    object-fit: contain;
+    margin-left: 5px;
+}
+
+.carousel .slides li {
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.carousel img {
+    width: 100%;
+
+}
+
+.carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.carousel button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel button:nth-of-type(1) {
+    left: 10px;
+}
+
+.carousel button:nth-of-type(2) {
+    right: 10px;
+}
+
+.img-container {
+    height: 400px;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 1100px) {
+    .carousel {
+        height: calc(100vh - 66px);
+    }
+    .img-container {
+        height: calc(100vh - 66px);
+    }
+}

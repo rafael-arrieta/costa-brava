@@ -1,0 +1,15 @@
+{
+    "fontColorPrimary": "white",
+    "fontColorSecondary": "#5BC3E3",
+    "fontPrimary": "roboto",
+    "fontSecondary": "roboto",
+    "borderColorPrimary": "rgba(150, 150, 170, 0.5)",
+    "bgColorPrimary": "rgb(15, 15, 17)",
+    "bgColorPrimaryOp": "rgba(15, 15, 17,0.8)",
+    "bgColorSecondary": "rgb(60, 60, 60)",
+    "bgColorCard": "rgba(15, 15, 17, 0.9)",
+    "bgColorNav": "rgb(14, 145, 216)",
+    "btnColor": "rgb(14, 145, 216)",
+    "bgColorCategory": "black",
+    "fontTitle": "roboto"
+}

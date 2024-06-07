@@ -1,0 +1,131 @@
+
+.footer-container{
+    width: 100%;
+    padding:0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: rgb(26, 26, 29);
+}
+
+.footer-data{
+    padding: 2.5em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+.footer-hr{
+    width: 1px;
+    height: 210px;
+}
+
+
+
+.footer-section{
+    width: 100%;
+    padding: 2em 1em;
+    color: white;
+}
+
+.footer-section h2{
+    font-size: 1.1em;
+
+    font-weight: 100;
+}
+
+.footer-ul,.footer-ul-social{
+    padding-top: 1.5em;
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    font-weight: 100;
+}
+
+.footer-ul-social{
+    gap: 5px;
+    padding-top: 0.6em;
+}
+
+.footer-ul-social h2{
+    padding-bottom: 1em;
+}
+
+
+.footer-ul li{
+    cursor: pointer;
+}
+.footer-ul li a:hover, .footer-ul-social li a:hover{
+    text-decoration: underline;
+}
+
+
+.matescript-footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(15,15,17);
+    color: rgb(209, 190, 141) !important;
+    padding-top: 30px;
+    padding-left: 20px;
+
+}
+
+.footer-logo{
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo img{
+    width: 60%;
+}
+
+.matescript-footer a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 20px;
+    margin-right: 7px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.matescript-footer-img{ 
+    margin-left: 10px;
+    width: 105px;
+}
+.social-media-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 0 10px;
+}
+
+
+@media screen and (min-width: 1100px) {
+    .matescript-footer{
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .footer-data{
+        flex-direction: row;
+    }
+
+    .footer-section{
+        padding: 0;
+        padding-left: 2em;
+    }
+
+    .footer-logo{
+        width: 100%;
+        padding: 0;
+    }
+}

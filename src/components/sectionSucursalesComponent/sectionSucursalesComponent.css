@@ -1,0 +1,172 @@
+
+
+.sucursales-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#sucursales{
+    --section-color: rgba(245, 245, 245);
+    --section-font: #ff9822;
+    background-color: var(--section-color);
+}
+
+.sucursales-text{
+    text-align: center;
+    color: rgb(55, 55, 55);
+    padding-bottom: 1.5em;
+}
+
+.sucursales-text h2{
+    font-size: 3em;
+    color: var(--section-font);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.sucursales-text p{
+    font-size: 1.2em;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0,0.5);
+}
+
+.cards-sucursales-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2em;
+    padding: 0.5em 0;
+}
+
+.span-text{
+    color: var(--section-color);
+    color: var(--section-font);
+}
+
+.cards-sucursales-container a{
+    background-color: white;
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: var(--section-font) 1px solid;
+    color: var(--section-font);
+}
+
+.sucursales-button:hover{
+    color: white;
+    background-color: var(--section-color);
+}
+
+.card-sucursales {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.4); /* Sombra para dar profundidad */
+    background-color: #fff; /* Fondo blanco */
+    padding-bottom: 1.5em;
+}
+  
+.card-sucursales img {
+    border-radius: 8px 8px 0 0;
+    width: 100%; /* Imagen ocupa el 100% del ancho del contenedor */
+    height: 250px; /* Altura automática */
+    object-fit: cover;
+}
+  
+.card-sucursales-content {
+    width: 100%;
+    display: flex;
+    padding: 2em;
+    gap: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+  
+.card-sucursales-content h3 {
+    width: 100%;
+    margin: 0 0 10px; /* Margen inferior para separar del siguiente contenido */
+    font-size: 1.25em; /* Tamaño de fuente del título */
+    color: #0d0d0d; /* Color del texto del título */
+}
+  
+.card-sucursales-content p {
+    width: 100%;
+    margin: 5px 0; /* Margen superior e inferior */
+    color: #2c2c2c; /* Color del texto */
+}
+
+
+
+@media screen and (min-width: 1100px) {
+    .sucursales-container {
+        width: 100%;
+        height: calc(100vh - 60px);
+        padding: 0;
+    }
+
+    .cards-sucursales-container{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .card-sucursales-content{
+        padding: 1em 2em 2em;
+        height: 160px;
+    }
+
+    .card-sucursales {
+        width: 25%;
+        height: 400px;
+    }
+
+    .card-sucursales img {
+        height: 170px;
+    }
+
+    .mosaico-images{
+        width: 50%;
+        padding: 2em 5em;
+    }
+
+    .sucursales-text{
+        padding: 1em 15%;
+    }
+
+    .sucursales-text h2{
+        font-size: 3em;
+    }
+
+    .sucursales-text p{
+        padding: 0.4em 15%;
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .card-sucursales {
+        width: 20%;
+        height: 460px;
+    }
+
+    .card-sucursales img {
+        height: 200px;
+    }
+
+    .card-sucursales-content{
+
+        height: 200px;
+    }
+
+}
