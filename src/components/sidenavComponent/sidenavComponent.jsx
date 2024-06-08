@@ -26,7 +26,7 @@ const SidenavComponent = (props) => {
             <div className="sidenav-container">
                 <a href='#quienes-somos' onClick={sidenavToggler} className="sidenav-anchor">Quienes somos</a>
                 <a href='#nuestra-propuesta' onClick={sidenavToggler} className="sidenav-anchor">Nuestra propuesta</a>
-                <a href='#sucursales' onClick={sidenavToggler} className="sidenav-anchor">Sucursales</a>
+                <a href='#sucursales' onClick={sidenavToggler} className="sidenav-anchor">Ventas</a>
                 <a href='#contacto' onClick={sidenavToggler} className="sidenav-anchor">Contacto</a>
             </div>
         </div>

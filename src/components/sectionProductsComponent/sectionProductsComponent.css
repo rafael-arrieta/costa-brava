@@ -102,12 +102,12 @@
 
     .products-text p{
         margin-top: 0.5em;
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
     .products-ul{
         text-align: left;
-        font-size: 1em;
+        font-size: 0.8em;
         padding: 1.5em 4em;
     }
     .products-li{

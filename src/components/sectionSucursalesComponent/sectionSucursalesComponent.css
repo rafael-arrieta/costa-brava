@@ -29,6 +29,7 @@
 }
 
 .sucursales-text p{
+    margin-top: 1em;
     font-size: 1.2em;
     text-shadow: 0px 0px 3px rgba(0, 0, 0,0.5);
 }
@@ -48,7 +49,8 @@
     color: var(--section-font);
 }
 
-.cards-sucursales-container a{
+.sucursales-container a{
+    margin: 15px auto;
     background-color: white;
     height: 40px;
     width: 140px;
@@ -57,6 +59,7 @@
     border-radius: 5px;
     border: var(--section-font) 1px solid;
     color: var(--section-font);
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0,0.1);
 }
 
 .sucursales-button:hover{
@@ -110,6 +113,7 @@
 
 
 @media screen and (min-width: 1100px) {
+
     .sucursales-container {
         width: 100%;
         height: calc(100vh - 60px);
@@ -128,7 +132,7 @@
 
     .card-sucursales {
         width: 25%;
-        height: 400px;
+        height: 340px;
     }
 
     .card-sucursales img {
@@ -149,24 +153,41 @@
     }
 
     .sucursales-text p{
-        padding: 0.4em 15%;
+        margin-top: 0.5em;
+        padding: 0.4em 10%;
         font-size: 1.3em;
     }
 }
 
 @media screen and (min-width: 1400px){
     .card-sucursales {
-        width: 20%;
-        height: 460px;
+        width: 22%;
+        height: 380px;
     }
 
+    
     .card-sucursales img {
         height: 200px;
     }
 
     .card-sucursales-content{
-
         height: 200px;
+    }
+
+    .sucursales-text h2{
+        font-size: 2.5em;
+    }
+
+    .sucursales-text p{
+        font-size: 1em;
+    }
+
+    .card-sucursales h3{
+        font-size: 1em;
+    }
+
+    .card-sucursales p{
+        font-size: 0.8em;
     }
 
 }

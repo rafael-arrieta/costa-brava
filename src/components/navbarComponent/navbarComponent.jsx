@@ -28,7 +28,7 @@ const NavbarComponent = (props) => {
                     <a href='#nuestra-propuesta'>Nuestra Propuesta</a>
                 </li>
                 <li>
-                    <a href='#sucursales'>Sucursales</a>
+                    <a href='#sucursales'>Ventas</a>
                 </li>
                 <li>
                     <a href='#contacto'>Contacto</a>

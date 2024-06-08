@@ -14,7 +14,6 @@ const cardImagesUrl = [
   "card-image-9.jpg",
 ];
 
-
 const SectionProductsComponent = () => {
   return (
     <>
@@ -23,31 +22,30 @@ const SectionProductsComponent = () => {
           <div className='products-text'>
             <h2>Nuestra Propuesta</h2>
             <p>
-              Brindamos un servicio integral en construcción y refacción de piscinas, 
-              a estándar o personalizado, destacando con detalles de terminación de primera 
+              Brindamos un servicio integral en construcción y refacción de piscinas <br></br>
+              -medidas estándar o personalizadas- destacando con detalles de terminación de primera 
               calidad, empleando materiales y productos de alta gama.
             </p>
 
             <ul className='products-ul'>
-              <li className='products-li'>Construcción de piscinas de medidas estándar o personalizadas.</li>
+              <li className='products-li'>Construcción de piscinas de medidas estándar o personalizadas</li>
               <li className='products-li'>Refacciones en general</li>
-              <li className='products-li'>Piletas climatizadas y jacuzzis</li>
+              <li className='products-li'>Piletas climatizadas y Jacuzzis</li>
               <li className='products-li'>Instalación de luminarias</li>
-              <li className='products-li'>construccion de cascadas y estanques</li>
-              <li className='products-li'>revestimientos (venecitas, travertinos, piedra Bali, aquavation)</li>
+              <li className='products-li'>Construcción de cascadas y estanques</li>
+              <li className='products-li'>Revestimientos (venecitas, travertinos, piedra Bali, aquavation)</li>
               <li className='products-li'>Veredas atérmicas, decks de madera o PVC</li>
-              <li className='products-li'>cerramientos, cercos perimetrales, calefactores (eléctricos, a gas y solares), ionizadores, ablandadores de agua... Y más</li>
-
+              <li className='products-li'>Cerramientos, cercos perimetrales, calefactores (eléctricos, a gas y solares), ionizadores, ablandadores de agua... Y más</li>
             </ul>
 
             <h3>Garantía y Servicio Postventa</h3>
               <p className='warantee-p'>
-                Disfruta de la tranquilidad con nuestra garantía de 20 años por pérdidas de contención de agua, 
-                respaldada por un certificado firmado ante escribano público. Además, ofrecemos un servicio 
-                postventa exclusivo que cubre daños o reparaciones por defectos en materiales o instalación 
+                Disfrutá de la tranquilidad con nuestra garantía de 20 años por pérdidas de contención de agua, 
+                la cual está respaldada por un certificado firmado ante escribano público. Además, ofrecemos un servicio 
+                postventa exclusivo, que cubre daños o reparaciones por defectos en materiales o instalación 
                 durante 60 días hábiles desde la entrega, garantizando que cualquier problema se solucione 
-                sin costo adicional, siempre que no sea por uso incorrecto. Con nosotros, tu inversión está 
-                protegida y puedes disfrutar de tu piscina sin preocupaciones
+                sin costo adicional (siempre que no sea por uso incorrecto). Con nosotros, tu inversión está 
+                protegida y podés disfrutar de tu piscina sin preocupaciones.
               </p>
           </div>
 
@@ -62,8 +60,6 @@ const SectionProductsComponent = () => {
 
                 ))}
           </div>
-        
-          
         </div>
       </section>
     </>

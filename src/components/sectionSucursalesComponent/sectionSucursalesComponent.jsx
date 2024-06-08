@@ -4,7 +4,7 @@ import './sectionSucursalesComponent.css'
   const suc = [
     {
       id: 1,
-      title: 'CABA,Amba y pcia de BsAs',
+      title: 'CABA, Amba y Pcia. de BsAs',
       phone1: 'Gastón +5411 6605 7121',
       phone2: 'César +5411 5177 2238',
       phone3: 'Damian +5411 6131 5940',
@@ -36,10 +36,10 @@ const SectionSucursalesComponent = () => {
         <div className='sucursales-container'>
 
           <div className='sucursales-text'>
-            <h2>Sucursales</h2>
+            <h2>Ventas y asesoramiento</h2>
             <p>
-              Descubre las sucursales de Costa Brava Piscinas, enccontrando la más cercana 
-              para satisfacer se necesidades de piscinas y accesorios.
+              Contactá a nuestros asesores por cercanía a su zona. Encontrá el mejor asesoramiento en ventas
+              para la construcción de tu piscina y accesorios. Presupuestos en el acto.
             </p>
             
           </div>
@@ -54,7 +54,6 @@ const SectionSucursalesComponent = () => {
                       <p>{suc[0].phone2}</p>
                       <p>{suc[0].phone3}</p>
                     </div>
-                    <a href="#contacto">Contactanos</a>
                   </div>
 
                   <div className="card-sucursales">
@@ -65,7 +64,6 @@ const SectionSucursalesComponent = () => {
                       <p>{suc[1].phone2}</p>
                       <p>{suc[1].phone3}</p>
                     </div>
-                    <a href="#contacto">Contactanos</a>
                   </div>
 
                   <div className="card-sucursales">
@@ -76,9 +74,9 @@ const SectionSucursalesComponent = () => {
                       <p>{suc[2].phone2}</p>
                       <p>{suc[2].phone3}</p>
                     </div>
-                    <a href="#contacto">Contactanos</a>
                   </div>
           </div>
+          <a href="#contacto">Contactanos</a>
         
           
         </div>
